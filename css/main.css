@@ -1,0 +1,131 @@
+/* reset */
+
+*,
+*::after,
+*::before{
+
+
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li {
+    margin: 0;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: #444;
+}
+main {
+    padding: 20px 0;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+.box{
+    border:2px solid#6f0f1f;
+margin-bottom: 60px;
+}
+
+
+.box2{
+    background: rgb(2,0,36);
+    background: linear-gradient(137deg, rgba(2,0,36,1) 0%, rgba(126,14,160,1) 23%, rgba(174,20,208,1) 52%, rgba(196,22,230,1) 53%, rgba(236,255,0,1) 100%);
+    border-radius: 10px;
+}
+
+.box1{
+    background-color: #30336b;
+    background-image: radial-gradient(#eb4d4b 10px, transparent 10px );
+    background-size: 50px 50px;
+    border-radius: 10px;
+}
+
+.box3{
+    background: repeating-linear-gradient(
+        45deg,
+        #ffcc6b,
+        #ffcc6b 10px,
+        #ff6b6b 10px,
+        #ff6b6b 20px
+    );
+    border-radius: 10px;
+}
+
+.box4{
+    background: #6bffcc;
+    border-radius: 10px;
+    background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
+}
+
+.box5{
+    background: linear-gradient(45deg, rgba(255, 107, 107, 0.8), rgba(255, 204, 107, 0.8));
+    border-radius: 10px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.system-font {
+    font-family: "Times New Roman", Times, serif;
+}
+.monospace-font {
+    font-family: "Courier New", Courier, monospace;
+}
+.cursive-font {
+    font-family: "Brush Script MT", cursive;
+}
+.fantasy-font {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
